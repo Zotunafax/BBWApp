@@ -20,6 +20,6 @@
     [super setRepresentedObject:representedObject];
 
     // Update the view, if already loaded.
-}rereerererer
+}
 
 @end
