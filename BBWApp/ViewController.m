@@ -2,7 +2,7 @@
 //  ViewController.m
 //  BBWApp
 //
-//  Created by Janes Thomas on 19/08/16.
+//  Created by Kaj Torvald Grey on 19/08/16.
 //  Copyright © 2016 Zotunafax. All rights reserved.
 //
 
@@ -12,14 +12,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // Loading the URL
+    NSURL *url =[NSURL URLWithString:@"http://www.bbw.ch"];
+    NSURLRequest*request=[NSURLRequest requestWithURL:url];
+    [[_website mainFrame] loadRequest:request];
 
-    // Do any additional setup after loading the view.
+
 }
 
 - (void)setRepresentedObject:(id)representedObject {
     [super setRepresentedObject:representedObject];
 
     // Update the view, if already loaded.
+}
+
+-(void)applicationDidFinishLaunching:(NSNotification*) notification
+{
+    
 }
 
 @end

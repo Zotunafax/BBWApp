@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A3C5FFD1D66F87C009A3206 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3C5FFC1D66F87C009A3206 /* WebKit.framework */; };
 		5ACCCE181D66E8EF0072D8DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACCCE171D66E8EF0072D8DC /* AppDelegate.m */; };
 		5ACCCE1B1D66E8EF0072D8DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACCCE1A1D66E8EF0072D8DC /* main.m */; };
 		5ACCCE1E1D66E8EF0072D8DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACCCE1D1D66E8EF0072D8DC /* ViewController.m */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A3C5FFC1D66F87C009A3206 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		5ACCCE131D66E8EF0072D8DC /* BBWApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBWApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACCCE161D66E8EF0072D8DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5ACCCE171D66E8EF0072D8DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3C5FFD1D66F87C009A3206 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 		5ACCCE0A1D66E8EF0072D8DC = {
 			isa = PBXGroup;
 			children = (
+				5A3C5FFC1D66F87C009A3206 /* WebKit.framework */,
 				5ACCCE151D66E8EF0072D8DC /* BBWApp */,
 				5ACCCE141D66E8EF0072D8DC /* Products */,
 			);
@@ -289,6 +293,7 @@
 				5ACCCE291D66E8F00072D8DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
